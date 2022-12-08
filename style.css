@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background: rgb(26, 25, 25);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.div-principal {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+.menu h2 {
+    position: absolute;
+    color: white;
+    margin-top: -72px;
+    margin-left: 200px;
+}
+.list {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 1160px;
+}
+.list a {
+    padding: 10px;
+}
+.list a img {
+    width: 22px;
+}
+
+.title {
+    margin-top: 100px;
+    color: white;
+}
+.title h1 {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 73px;
+    max-width: 696px;
+}
+.perfil img {
+    width: 370px;
+    height: 730px;
+    margin-top: -184px;
+    margin-left: 942px;
+}
+
+.container {
+    position: absolute;
+    margin-top: -366px;
+    margin-left: 312px;
+    border: 2px solid #8B008B;
+    width: 430px;
+}
+
+.text-p {
+    margin-top: -320px;
+    max-width: 400px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.p-text {
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+.container1 {
+    position: absolute;
+    border: 2px solid #8B008B;
+    width: 92px;
+    margin-left: 196px;
+    margin-top: 5px;
+}
+
+.barra-maior {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 167px;
+    width: 1147px;
+    border: 1px solid rgb(95, 93, 93);
+}
+
+.language {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.language h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.meio {
+    margin-left: 30px;
+}
+.fim {
+    margin-left: 30px ;
+}
+.somete-h2-react {
+    margin-top: 100px;
+}
+
+.language p {
+    color: white;
+}
+
+.project h1 {
+    color: white;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+.project p {
+    color: white;
+    margin-left: 790px;
+    margin-top: 180px;
+    border-bottom: 2px solid  #8B008B;
+    margin-bottom: 18px;
+}
+.projeto {
+    display: flex;
+} 
+.img-gif img {
+    width: 530px;
+    height: 400px;
+    margin-top: 100px;
+}
+.img1 {
+    margin-left: 200px ;
+}
+.img2{
+    margin-left: 20px;
+}
+.img3 {
+    margin-left: 200px ;
+}
+.img4 {
+    margin-left: 20px;
+}
+.img5 {
+    margin-left: 200px ;
+}
+.img6 {
+    margin-left: 20px;
+}
+
+.div-1 {
+    display: flex;
+}
+.coisa1 h3  {
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.coisa1 h4 {
+    color: white;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.coisa2 h3 {
+    margin-top: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.coisa2 h4 {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.div-2 {
+    display: flex;
+}
+
+.coisa3 h3  {
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.coisa3 h4 {
+    color: white;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.coisa4 h3 {
+    margin-top: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.coisa4 h4 {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.div-3 {
+    display: flex;
+}
+
+.coisa5 h3  {
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.coisa5 h4 {
+    color: white;
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.coisa6 h3 {
+    margin-top: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.coisa6 h4 {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer {
+    background: rgb(37, 37, 37);
+    margin-top: 50px;
+}
+.contact {
+    display: flex;
+}
+
+.contact h1 {
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.contact  p {
+    color: white;
+    margin-top: 25px;
+    margin-left:  200px;
+    max-width: 438px; 
+    font-size: 14px;
+}
+.form {
+    margin-left: 220px;
+}
+
+.form input{
+    display: block;
+}
+.text {
+    margin-top: 100px;
+    background: rgb(37, 37, 37);
+    margin-bottom: 50px;
+    width: 420px;
+    height: 40px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    outline: none;
+    color: white;
+}
+
+.text::placeholder {
+    padding-left: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+}
+
+.email{
+    background: rgb(37, 37, 37);
+    margin-bottom: 50px;
+    width: 420px;
+    height: 40px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    outline: none;
+    color: white;
+}
+
+.email::placeholder {
+    padding-left: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+}
+
+.mensage {
+    background: rgb(37, 37, 37);
+    margin-bottom: 50px;
+    width: 420px;
+    height: 80px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    outline: none;
+    color: white;
+}
+
+.mensage::placeholder {
+    padding-left: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    position: absolute;
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgb(37, 37, 37);
+    margin-top: 115px;
+    width: 120px;
+    margin-left: -120px;
+    color: white;
+    height: 30px;
+    font-size: 14px;
+}
+
+.pe-final-barra {
+    margin-left: 1156px;
+    border: 1px solid #8B008B;
+    width: 120px;
+    margin-top: 10px;
+}
+.container-footer {
+    border-bottom: 1px solid  rgb(141, 141, 141);
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1083px;
+}
+
+.parte-final {
+   padding-bottom: 90px;
+}
+
+.parte-final h2 {
+    margin-left:  200px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.social-media {
+    margin-left: 1115px;
+    margin-top: -130px;
+}
+
+.social-media img {
+    margin-left: 15px;
+    width: 25px;
+}
+
+@media (max-width: 768px) {
+    .menu h2 {
+        margin-top: -83px;
+        margin-left: 40px;;
+    }
+    .title h1 {
+        margin-left: 40px;
+        font-size: 65px;
+        max-width: 515px;
+    }
+    .container {
+        margin-top: -301px;
+        margin-left: 40px;
+        width: 376px;
+    }
+    .list {
+        margin-left: 577px;
+    }
+    .text-p {
+        margin-top: -245px;
+        margin-left: 40px;
+        max-width: 359px;
+    }
+    .perfil img {
+        width: 333px;
+        height: 730px;
+        margin-top: -184px;
+        margin-left: 418px;
+    }
+    .p-text {
+        margin-top: 116px;
+        margin-left: 40px;
+    }
+    .container1 {
+        margin-left: 40px;
+    }
+    .barra-maior {
+        margin-top: 77px;
+        margin-left: 40px;
+        width: 660px;
+    }
+    .language {
+        margin-top: 140px;
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .meio {
+        margin-left: 0px;
+    }
+    .fim {
+        margin-left: 0px;
+        margin-top: 102px;
+    }
+    .project h1 {
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+    .img-gif img {
+        width: 326px;
+        height: 210px;
+        margin-top: 100px;
+    }
+    .img1 {
+        margin-left: 40px;
+    }
+    .coisa1 h3 {
+        margin-left: 40px;;
+    }
+    .coisa1 h4 {
+        margin-left: 40px;
+    }
+    .img3 {
+        margin-left: 40px;
+    }
+    .coisa3 h3 {
+        margin-left: 40px;
+    }
+    .coisa3 h4 {
+        margin-left: 40px;
+    }
+    .img5 {
+        margin-left: 40px;
+    }
+    .coisa5 h3 {
+        margin-left: 40px;
+    }
+    .coisa5 h4 {
+        margin-left: 40px;
+    }
+    .img6 {
+        margin-left: 25px;
+    }
+    .coisa6 h3 {
+        margin-left: 25px;
+    }
+    .coisa6 h4 {
+        margin-left: 25px;
+    }
+    .img4 {
+        margin-left: 25px;
+    }
+    .coisa4 h3 {
+        margin-left: 25px;
+    }
+    .coisa4 h4 {
+        margin-left: 25px;
+    }
+    .img2 {
+        margin-left: 25px;
+    }
+    .coisa2 h3{
+        margin-left: 25px;
+    }
+    .coisa2 h4{
+        margin-left: 25px;
+    }
+    .project p {
+        margin-left: 370px;
+        margin-top: 120px;
+    }
+    .contact {
+        display: block;
+    }
+    .contact h1 {
+        margin-left: 259px;
+        margin-top: 68px;
+        padding-top: 45px;
+    }
+    .contact p {
+        margin-top: 13px;
+        margin-left: 204px;
+        max-width: 377px;
+        text-align: center;
+    }
+    .form input {
+        margin-left: -40px;
+    }
+    .mensage {
+        margin-left: -40px;
+    }
+    .container-footer {
+        margin-left: 40px;
+        width: 680px;
+    }
+    .parte-final h2 {
+        margin-left: 40px;
+        margin-top: 35px;
+    }
+    .social-media {
+        margin-left: 520px;
+    }
+    .pe-final-barra {
+        margin-left: 480px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .menu h2 {
+        margin-left: 160px;;
+    }
+    .perfil img {
+        width: 281px;
+        height: 590px;
+        margin-top: -150px;
+        margin-left: 110px;
+    }
+    .title h1 {
+        margin-left: 25px;
+        font-size: 44px;
+        margin-top: 485px;
+        max-width: 439px;
+        text-align: center;
+    }
+    .text-p {
+        margin-top: 167px;
+        margin-left: 40px;
+        max-width: 398px;
+        text-align: center;
+    }
+    .container {
+        margin-top: 153px;
+        margin-left: 148px;
+        width: 260px;
+    }
+    .list {
+        margin-left: 185px;
+        margin-top: -47px;
+    }
+    .p-text {
+        margin-top: 27px;
+        margin-left: 189px;
+    }
+    .container1 {
+        margin-left: 185px;
+    }
+    .barra-maior {
+        margin-top: 77px;
+        margin-left: 30px;
+        width: 415px;
+    }
+    .language {
+        margin-top: 140px;
+        margin-left: 170px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .language h2 {
+        font-size: 50px;
+    }
+    .language p {
+        color: white;
+        margin-left: -16px;
+    }
+    .meio {
+        margin-left: 0px;
+        margin-top: 140px;
+        position: absolute;
+    }
+    .meio h2 {
+        margin-left: 25px;
+    }
+    .fim {
+        position: absolute;
+        margin-top: 249px;
+    }
+    .fim h2 {
+        margin-left: -65px;
+        margin-top: 13px;
+    }
+    .somete-h2-react {
+        margin-top: 290px;
+        margin-left: 0px;
+    }
+    .project p {
+        margin-left: 90px;
+        font-size: 20px;
+    }
+    .div-1 {
+        display: block;
+    }
+    .div-2 {
+        display: block;
+    }
+    .div-3 {
+        display: block;
+    }
+    .coisa1 { 
+        margin-left: 55px;
+    }
+    .coisa2 { 
+        margin-left: 55px;
+    }
+    .coisa3 { 
+        margin-left: 55px;
+    }
+    .coisa4 { 
+        margin-left: 55px;
+    }
+    .coisa5 { 
+        margin-left: 55px;
+    }
+    .coisa6 { 
+        margin-left: 55px;
+    }
+    .contact h1 {
+        margin-left: 120px;
+    }
+    .contact p {
+        margin-left: 50px;
+    }
+    .form input {
+        margin-left: -186px;
+    }
+    .mensage {
+        margin-left: -186px;
+    }
+    .container-footer {
+        margin-left: 25px;
+        width: 429px;
+    }
+    .pe-final-barra {
+        margin-left: 330px;
+        width: 120px;
+    }
+    .parte-final h2 {
+        margin-left: 150px;
+        margin-top: 35px;
+    }
+    .social-media {
+        margin-left: 145px;
+        margin-top: -74px;
+    }
+}
